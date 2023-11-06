@@ -1,0 +1,2470 @@
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(244, 250, 255);
+    margin-top: 0;
+    top: 0;
+    padding-top: 0%;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+}
+.header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.nav-bar1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.nav-bar1 ul{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav li{
+    list-style: none;
+    display: flex;
+    position: relative;
+    text-align: right;
+    word-spacing: 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.logod{
+    width: 170px;
+    padding-left: 100px;
+}
+.navs1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #3d4f60;;
+    gap: 1rem;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    top: 10px;
+}
+.nav-btn1{
+    display: flex;
+    position: relative;
+    height: 55px;
+    width: 95px;
+    border: 1px solid rgb(18, 34, 49);
+    border-radius: 15px;
+    font-size: 17px;
+    right: 200px;
+    top: 25px;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 15px;
+}
+.nav-btn2{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 55px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(18, 34, 49);
+    border: none;
+    border-radius: 15px;
+    right: 100px;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 20px;
+    top: -30px;
+}
+body{
+    background-color: rgb(244, 250, 255);
+    overflow-x: hidden;
+}
+.bounce{
+    height: 700px;
+    width: 500px;
+    /* border: 10px solid white; */
+    background-image: url(./multimedia/pexels-ketut-subiyanto-4350099.avif);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    right: -750px;
+    top: 50px;
+    animation: piggy 10s linear infinite;
+    background-repeat: no-repeat;
+}
+@keyframes piggy{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.icon1{
+    width: 200px;
+    position: relative;
+    top: 115px;
+    left: -30px;
+}
+.icon2{
+    width: 200px;
+    position: relative;
+    top: 10px;
+    right: -350px;
+}
+.icon3{
+    width: 200px;
+    position: relative;
+    top: 170px;
+    left: -30px;
+}
+.icon4{
+    width: 200px;
+    position: relative;
+    top: 100px;
+    right: -350px;
+}
+.icon5{
+    width: 200px;
+    position: relative;
+    top: 170px;
+    left: 200px;
+}
+.bests h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    position: relative;
+    display: flex;
+    text-align: left;
+    margin-top: -570px;
+    padding: 100px;
+    word-wrap: break-word;
+    color: #122231;
+    letter-spacing: -0.03em;
+    line-height: 56px;
+    max-width: 459px;
+    opacity: 1;
+}
+.bests p{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    text-align: left;
+    margin-top: -200px;
+    padding: 100px;
+    word-wrap: break-word;
+    color: #122231;
+    max-width: 370px;
+    line-height: 30px;
+    opacity: .7;
+}
+.apple{
+    width: 170px;
+    height: 60px;
+    background-color: #122231;
+    position: relative;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    left: 100px;
+    margin-top: -100px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 10px;
+    cursor: pointer;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+.apple:hover{
+    transform: translateY(-10px);
+    transition-duration: .7s;
+    background-color: black;   
+}
+.whiteapple{
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+.google{
+    width: 170px;
+    height: 60px;
+    background-color: #122231;
+    position: relative;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    left: 290px;
+    margin-top: -60px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 10px;
+    padding-left: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-right: 20px;
+}
+.google:hover{
+    transform: translateY(-10px);
+    transition-duration: .7s;
+    background-color: black;   
+}
+.secure{
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+}
+.secure h2{
+    font-family: sans-serif;
+    color: #122231;
+    white-space: nowrap;
+}
+.secure p{
+    display: block;
+    margin-top: 60px;
+    margin-left: -310px;
+    font-size: 16px;
+    max-width: 648px;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: #3d4f60;
+}
+.arrow{
+    margin-top: 140px;
+    margin-left: -640px;
+}
+.secure h4{
+    margin-top: 150px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    color: #122231;
+    cursor: pointer;
+}
+.secure h4:hover{
+    background-color: #3d4f60;
+    transform-origin: left;
+    transition-timing-function: ease-in;
+    transition-duration: 3s;
+}
+.vest{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 700px;
+    border: 2px solid white;
+    border-radius: 25px;
+    overflow: hidden;
+    animation-duration: 10s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone1;
+    /* cursor: pointer; */
+}
+.automated{
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+    top: 55px;
+    left: 30px;
+    color: rgb(45, 45, 137);
+    animation-duration: 10s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone3;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.fast{
+    font-family: sans-serif;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    top: 120px;
+    right: 300px;
+    color: #3d4f60;
+    /* white-space: nowrap; */
+    line-height: 35px;
+    /* max-width: 350px; */
+    min-width: 300px;
+    animation-duration: 10s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone4;
+    cursor: pointer;
+}
+.vest img{
+    height: 250px;
+    position: relative;
+    display: block;
+    background-color: none;
+    top: 245px;
+    right: 350px;
+    transform: translate(250px, 250px);
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+@keyframes phone{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes phone1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(85, 85, 237);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(85, 85, 237);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(85, 85, 237);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes phone3{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(45, 45, 137);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes phone4{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.build{
+    color: #122231;
+}
+.build h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    max-width: 450px;
+    text-align: center;
+    margin-top: -400px;
+}
+.build p{
+    font-size: 24px;
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    left: 120px;
+    max-width: 350px;
+    line-height: 35px;
+    text-align: center;
+}
+.vest2{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 180px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: lock1;
+    animation-delay: 5s;
+}
+.fixed{
+    white-space: nowrap;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(50, 150, 255);
+    animation: lock2 10s infinite;
+    animation-delay: 5s;
+    font-weight: 700;
+}
+.lock{
+    /* position: absolute; */
+    margin-top: 130px;
+    margin-left: -230px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* display: flex; */
+    min-width: 290px;
+    font-weight: lighter;
+    color: #3d4f60;
+    line-height: 35px;
+    animation-delay: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: phone4;
+}
+.vest2 img{
+    height: 250px;
+    position: relative;
+    display: flex;
+    margin-top: 247px;
+    right: 40px;
+    transform: translate(250px, 250px);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: lock;
+    animation-delay: 5s;
+}
+@keyframes lock{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes lock1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(50, 150, 255);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(50, 150, 255);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(50, 150, 255);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes lock2{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(17, 138, 230);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes lock3{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.vest3{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: -500px;
+    display: flex;
+    position: relative;
+    left: 700px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: anime1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+.goal{
+    font-size: 33px;
+    white-space: nowrap;
+    font-family: sans-serif;
+    color: rgb(6, 155, 64);
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    left: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    /* letter-spacing: 0.1em; */
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-name: anime2;
+    cursor: pointer;
+}
+.reach{
+    position: relative;
+    margin-top: 130px;
+    margin-left: -300px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* display: flex; */
+    max-width: 300px;
+    min-height: 80px;
+    font-weight: lighter;
+    color: #3d4f60;
+    line-height: 35px;
+    font-weight: 400;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone4;
+}
+.save{
+    height: 250px;
+    margin-top: 248px;
+    position: relative;
+    display: flex;
+    right: 70px;
+    transform: translate(250px, 250px);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: anime;
+}
+@keyframes anime{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes anime1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(6, 155, 64);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(6, 155, 64);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(6, 155, 64);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes anime2{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(6, 155, 64);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+.vest3:hover{
+    background-color: rgb(6, 155, 64);
+}
+.vest3:hover {
+    background-color: rgb(6, 155, 64);
+    color: white;
+    animation-play-state: paused;
+    .goal{
+        color: white;
+        animation-play-state: paused;
+        background-color: rgb(6, 155, 64);
+    }
+    .save{
+        animation-play-state: paused;
+        transform: translate(0px, 0px);
+        background-color: rgb(6, 155, 64);
+    }
+    .goal{
+        color: white;
+        animation-play-state: paused;
+        background-color: rgb(6, 155, 64);
+    }
+    .reach{
+        color: white;
+        animation-play-state: paused;
+        background-color: rgb(6, 155, 64);
+    }
+    .vest3{
+        background-color:  rgb(6, 155, 64) !important;
+        animation-play-state: paused;
+    }
+}
+.vest4{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: i1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.naira{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    left: 50px;
+    color: #e5489b;
+    animation-duration: 10s;
+    animation-name: i1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transition: linear;
+}
+.flex{
+    font-size: 22px;
+    display: block;
+    position: relative;
+    margin-top: 170px;
+    left: -150px;
+    min-width: 280px;
+    color: #3d4f60;
+    animation-duration: 10s;
+    animation-name: i3;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+.iphone14{
+    display: flex;
+    position: relative;
+    margin-top: 248px;
+    right: 200px;
+    height: 250px;
+    animation-duration: 10s;
+    animation-name: i0;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transform: translate(250px, 250px);
+}
+@keyframes i0{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes i1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    44.9%{color: #e5489b;
+    }
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  #e5489b;
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  #e5489b;
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: #e5489b;
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes i2{
+    /* 0%{background-color: white;} */
+    44.99%{color: #e5489b;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes i3{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.vest5{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: -500px;
+    display: flex;
+    position: relative;
+    left: 700px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: ip1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+
+.dollar{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    left: 50px;
+    color: rgb(12, 24, 37);
+    animation-duration: 10s;
+    animation-name: ip1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transition: linear;
+}
+.grow{
+    font-size: 22px;
+    display: flex;
+    position: relative;
+    margin-top: 170px;
+    left: -150px;
+    min-width: 300px;
+    color: #3d4f60;
+    animation-duration: 10s;
+    animation-name: ip3;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+.iphone12{
+    display: flex;
+    position: relative;
+    margin-top: 248px;
+    right: 230px;
+    height: 250px;
+    animation-duration: 10s;
+    animation-name: ip0;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transform: translate(250px, 250px);
+}
+@keyframes ip0{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes ip1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    44.9%{color: rgb(12, 24, 37);
+    }
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(12, 24, 37);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(12, 24, 37);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(12, 24, 37);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes ip2{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(12, 24, 37);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes ip3{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.animated-div{
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+@keyframes animateDivs{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@media only screen and (width < 1000px){
+    .navs1{
+        display: none;
+    }
+    .navs1 li{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .bests h1{
+        position: relative;
+        margin-top: 50px;
+        display: flex;
+    }
+    .bests p{
+        position: relative;
+        margin-top: -200px;
+        display: flex;
+    }
+    .apple{
+        position: relative;
+        margin-top: -100px;
+    }
+    .google{
+        position: relative;
+        margin-top: -60px;
+    }
+    .secure{
+        position: relative;
+        margin-top: 600px;
+        z-index: 1;
+        display: flex;
+    }
+    .bounce{
+        height: 700px;
+        width: 500px;
+        /* border: 10px solid white; */
+        background-image: url(./multimedia/pexels-ketut-subiyanto-4350099.avif);
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        left: 100px;
+        top: 600px;
+        animation: piggy 10s linear infinite;
+        background-repeat: no-repeat;
+    }
+    @keyframes piggy{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-50px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    .icon1{
+        width: 200px;
+        position: relative;
+        top: 115px;
+        left: -30px;
+    }
+    .icon2{
+        width: 200px;
+        position: relative;
+        top: 10px;
+        right: -350px;
+    }
+    .icon3{
+        width: 200px;
+        position: relative;
+        top: 170px;
+        left: -30px;
+    }
+    .icon4{
+        width: 200px;
+        position: relative;
+        top: 100px;
+        right: -350px;
+    }
+    .icon5{
+        width: 200px;
+        position: relative;
+        top: 170px;
+        left: 200px;
+    }
+    .secure p{
+        max-width: 300px;
+        display: flex;
+    }
+    .secure img{
+        display: none;
+        display: flex;
+    }
+    .secure h4{
+        display: flex;
+        position: relative;
+        margin-top: 200px;
+        margin-left: 100px;
+        left: 300px;
+    }
+    .build{
+        position: relative;
+        margin-top: 350px;
+        z-index: 1;
+        margin-left: 00px;
+        left: 00px;
+        display: flex;
+    }
+    .build h1{
+        min-width: 400px;
+        margin-left: 0px;
+    }
+    .build p{
+        position: relative;
+        margin-left: -420px;
+        top: -270px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .vest{
+        position: absolute;
+        float: left;
+        display: flex;
+        /* margin-left: -600px; */
+        left: 100px;
+        margin-top: 300px;
+        z-index: 1;
+    }
+    .vest2{
+        position: relative;
+        display: flex;
+        margin-left: 00px;
+        top: 200px;
+        z-index: 1;
+    }
+     .vest3{
+        position: relative;
+        display: flex;
+        margin-left: -600px;
+        top: 750px;
+        z-index: 1;
+
+    }
+     .vest4{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        top: 750px;
+    }
+    .vest5{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        top: 1300px;
+        margin-left: -600px;
+    }
+    .diverse{
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        margin-top: 1300px;
+        width: 100% !important;
+        height: 900px !important;
+    }
+    .ways{
+        /* color: red !important; */
+        font-size: 15px;
+        /* white-space: nowrap; */
+        position: relative;
+        top: -100px;
+        left: 150px;
+        min-width: 400px;
+        text-align: left !important;
+        display: flex;      
+    }
+    .invest{
+        width: 600px !important;
+        height: 500px !important;
+        position: relative;
+        top: 350px;
+        left: -750px;
+    }
+    .invest img{
+        height: 250px !important;
+        position: relative;
+        left: -380px;
+        top: -50px !important;
+    }
+    .diverse p{
+        position: relative;
+        top: 200px;
+        display: flex;
+        left: -270px;
+        min-width: 350px;
+        text-align: left !important;
+    }
+    .saver{
+        position: relative;
+        top: -100px;
+        max-width: 500px;
+        left: 100px;
+    }
+    .month{
+        position: relative;
+        top: -100px;
+        left: -150px;
+    }
+    .video{
+        position: relative;
+        top: -100px;
+        left: -150px;
+        width: 500px !important;
+    }
+    .june{
+        width: 480px !important;
+    }
+    .join{
+        position: relative;
+        top: -200px !important;
+    }
+    .people{
+        top: 50px !important;
+        left: -500px;
+        z-index: 1;
+        min-width: 400px;
+    }
+    .black{
+        top: 50px !important;
+        left: -550px;
+    }
+    .android{
+        top: 4px !important;
+    }
+    .feature{
+        position: relative;
+        top: -100px !important;
+    }
+    .brand{
+        /* width: 100px !important; */
+        margin-left: 50px !important;
+        top: -100px !important;
+    }
+    .brand2{
+        position: relative;
+        margin-left: 270px !important;
+        top: -100px !important;
+    }
+    .brand1{
+        position: relative;
+        top: -100px;
+    }
+    .pym{
+        margin-left: 70px !important;
+        top: -40px;
+    }
+    .brand4{
+        position: relative;
+        margin-left: 270px !important;
+        top: -40px;
+    }
+    .cio{
+        position: relative;
+        top: -40px;
+        margin-left: 480px !important;
+    }
+    .footer{
+        position: relative;
+        top: -100px !important;
+        margin-left: -80px !important;
+    }
+    .foot-list{
+        position: relative;
+        margin-top: -50px !important;
+        margin-left: 00px !important;
+    }
+    .foot-list2{
+        position: relative;
+        right: 50px !important;
+    }
+    .foot-list3{
+        position: relative;
+        top: 250px !important;
+        margin-left: 0px !important;
+    }
+    .brand-logo{
+        position: relative;
+        top: 400px !important;
+        margin-left: -1070px !important;
+    }
+    .foot-brand{
+        position: relative;
+        width: 100%;
+        height: 1250px !important;
+    }
+    .tesmot{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+        text-align: left !important;
+    }
+    .line{
+        position: relative;
+        top: 350px !important;
+    }
+    .contact{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+    }
+    .call{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+    }
+    .end{
+        position: relative;
+        top: 350px;
+        max-width: 500px !important;
+    }
+    .pv{
+        position: relative;
+        top: 320px !important;
+    }
+    .copy{
+        position: relative;
+        top: 330px !important;
+    }
+}
+.diverse{
+    width: 100%;
+    height: 1100px !important;
+    background-color: white;
+    position: relative;
+    top: 100px;
+}
+.ways{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    color: #122231;
+}
+.diverse p{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #3d4f60;
+}
+.invest{
+    width: 1200px;
+    height: 550px;
+    background-color: #7913e5;
+    margin-left: 50px;
+    border-radius: 25px;
+    color: white;
+}
+.invest img{
+    /* width: 500px; */
+    height: 450px;
+    position: relative;
+    padding-left: 700px;
+    top: -200px;
+}
+.earn{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+.confident{
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    max-width: 280px;
+    font-family: sans-serif;
+    line-height: 30px;
+
+}
+.saver{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 300px;
+    text-align: center;
+    color: #122231;
+}
+.month{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    white-space: wrap;
+    max-width: 800px;
+    margin-left: 270px;
+    margin-top: -20px;
+    color: #3d4f60;
+}
+.video{
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+.june{
+    width: 780px;
+    height: 380px;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.stories{
+    margin-top: 200px;
+    height: 500px;
+    margin-left: 100px;
+    display: flex;
+}
+.people{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -350px;
+    max-width: 600px;
+    margin-left: 600px;
+    color: #122231;
+}
+.black{
+    width: 140px;
+    height: 45px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    top: -340px;
+    margin-left: 650px;
+}
+.black-apple{
+    width: 18px;
+    position: relative;
+    left: 2px;
+}
+.get-on{
+    font-size: 18px;
+    position: relative;
+    top: -22px;
+    white-space: nowrap;
+    left: 3px;
+}
+.android{
+    position: relative;
+    margin-left: 800px;
+    top: -385px;
+}
+.black:hover{
+    transform: translateY(-10px);
+    transition-duration: .5s;
+}
+.foot-brand{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+.feature{
+    font-family: sans-serif;
+    color: #122231;
+    text-align: center;
+    padding-top: 100px;
+}
+.brand{
+    width: 150px;
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+}
+.brand2{
+    width: 150px;
+    display: flex;
+    margin-left: 320px;
+    margin-top: -30px;
+}
+.brand1{
+    width: 150px;
+    margin-left: 480px;
+    display: flex;
+    position: relative;
+    margin-top: -28px;
+}
+.pym{
+    /* width: 100px; */
+    margin-left: 700px;
+    margin-top: -30px;
+    display: flex;
+    position: relative;
+}
+.brand4{
+    width: 150px;
+    margin-left: 850px;
+    display: flex;
+    position: relative;
+    margin-top: -60px;
+}
+.cio{
+    /* width: 150px; */
+    margin-left: 1050px;
+    margin-top: -60px;
+    display: flex;
+    position: relative;
+}
+.piggy{
+    opacity: .8;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.audit{
+    width: 100px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 200px
+}
+.foot-list{
+    list-style: none;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-left: 400px;
+    margin-top: -140px;
+    color: #3d4f60;
+}
+.li1{
+    color: #122231;
+    font-weight: 800;
+    font-size: 15px;
+}
+.foot-list2{
+    color: #3d4f60;
+    list-style: none;
+    line-height: 30px;
+    font-family: sans-serif;
+    position: relative;
+    margin-left: 550px;
+    margin-top: -220px;
+    font-size: 15px;
+}
+.li2{
+    color: #122231;
+    font-weight: 800;
+}
+.foot-list3{
+    color: #3d4f60;
+    list-style: none;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    margin-left: 700px;
+    margin-top: -140px;
+}
+.li3{
+    color: #122231;
+    font-weight: 800;
+}
+.brand-logo{
+    position: relative;
+}
+.facebook{
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -130px;
+    display: flex;
+}
+.instagram{
+    position: relative;
+    display: flex;
+    margin-left: 1130px;
+    margin-top: -15px;
+}
+.twitter{
+    position: relative;
+    display: flex;
+    margin-left: 1170px;
+    margin-top: -15px;
+}
+.tiktok{
+    position: relative;
+    display: flex;
+    margin-left: 1210px;
+    margin-top: -15px;
+}
+.youtube{
+    position: relative;
+    display: flex;
+    margin-left: 1250px;
+    margin-top: -15px;
+}
+.tesmot{
+    font-family: sans-serif;
+    text-align: right;
+    max-width: 300px;
+    color: #3d4f60;
+    position: relative;
+    margin-left: 980px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.contact{
+    color: #3d4f60;
+    font-size: 15px;
+    position: relative;
+    margin-left: 1130px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.call{
+    color: #3d4f60;
+    font-size: 15px;
+    position: relative;
+    margin-left: 1140px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.line{
+    color: lightgrey;
+    width: 1200px;
+    margin-top: 100px;
+    opacity: .3;
+}
+.end{
+    color: #3d4f60;
+    font-family: sans-serif;
+    font-size: 12px;
+    max-width: 720px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.pv{
+    color: #3d4f60;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 500px;
+}
+.copy{
+    color: #3d4f60;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: #062863;
+}
+@media only screen and (max-width: 600px){
+    .navs1{
+        display: none;
+    }
+    .navs1 li{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .logod{
+        position: relative;
+        margin-left: -70px !important;
+        display: flex;
+    }
+    .bests h1{
+        position: relative;
+        margin-top: 50px;
+        display: flex;
+    }
+    .bests p{
+        position: relative;
+        margin-top: -200px;
+        display: flex;
+    }
+    .apple{
+        position: relative;
+        margin-top: -100px;
+    }
+    .google{
+        position: relative;
+        margin-top: -60px;
+    }
+    .secure{
+        position: relative;
+        margin-top: 600px;
+        z-index: 1;
+        display: flex;
+    }
+    .bounce{
+        height: 600px;
+        width: 400px;
+        /* border: 10px solid white; */
+        background-image: url(./multimedia/pexels-ketut-subiyanto-4350099.avif);
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        left: 40px;
+        top: 650px;
+        animation: piggy 10s linear infinite;
+        background-repeat: no-repeat;
+    }
+    @keyframes piggy{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-50px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    .icon1{
+        width: 150px;
+        position: relative;
+        top: 105px;
+        left: -10px;
+    }
+    .icon2{
+        width: 150px;
+        position: relative;
+        top: 10px;
+        right: -300px;
+    }
+    .icon3{
+        width: 150px;
+        position: relative;
+        top: 170px;
+        left: -30px;
+    }
+    .icon4{
+        width: 150px;
+        position: relative;
+        top: 100px;
+        right: -300px;
+    }
+    .icon5{
+        width: 150px;
+        position: relative;
+        top: 140px;
+        left: 160px;
+    }
+    .secure p{
+        max-width: 300px;
+        display: flex;
+    }
+    .secure img{
+        display: none;
+        display: flex;
+    }
+    .secure h4{
+        display: flex;
+        position: relative;
+        margin-top: 200px;
+        margin-left: 100px;
+        left: 300px;
+    }
+    .build{
+        position: relative;
+        margin-top: 350px;
+        z-index: 1;
+        margin-left: 00px;
+        left: 00px;
+        display: flex;
+    }
+    .build h1{
+        min-width: 400px;
+        margin-left: 0px;
+    }
+    .build p{
+        position: relative;
+        margin-left: -420px;
+        top: -270px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .vest{
+        position: absolute;
+        float: left;
+        display: flex;
+        /* margin-left: -600px; */
+        left: 100px;
+        margin-top: 300px;
+        z-index: 1;
+    }
+    .vest2{
+        position: relative;
+        display: flex;
+        margin-left: 00px;
+        top: 200px;
+        z-index: 1;
+    }
+     .vest3{
+        position: relative;
+        display: flex;
+        margin-left: -600px;
+        top: 750px;
+        z-index: 1;
+
+    }
+     .vest4{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        top: 750px;
+    }
+    .vest5{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        top: 1300px;
+        margin-left: -600px;
+    }
+    .diverse{
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        margin-top: 1300px;
+        width: 100% !important;
+        height: 900px !important;
+    }
+    .ways{
+        /* color: red !important; */
+        font-size: 15px;
+        /* white-space: nowrap; */
+        position: relative;
+        top: -100px;
+        left: 150px;
+        min-width: 400px;
+        text-align: left !important;
+        display: flex;      
+    }
+    .invest{
+        width: 600px !important;
+        height: 500px !important;
+        position: relative;
+        top: 350px;
+        left: -750px;
+    }
+    .invest img{
+        height: 250px !important;
+        position: relative;
+        left: -380px;
+        top: -50px !important;
+    }
+    .diverse p{
+        position: relative;
+        top: 200px;
+        display: flex;
+        left: -270px;
+        min-width: 350px;
+        text-align: left !important;
+    }
+    .saver{
+        position: relative;
+        top: -100px;
+        max-width: 500px;
+        left: 100px;
+    }
+    .month{
+        position: relative;
+        top: -100px;
+        left: -150px;
+    }
+    .video{
+        position: relative;
+        top: -100px;
+        left: -150px;
+        width: 500px !important;
+    }
+    .june{
+        width: 480px !important;
+    }
+    .join{
+        position: relative;
+        top: -200px !important;
+    }
+    .people{
+        top: 50px !important;
+        left: -500px;
+        z-index: 1;
+        min-width: 400px;
+    }
+    .black{
+        top: 50px !important;
+        left: -550px;
+    }
+    .android{
+        top: 4px !important;
+    }
+    .feature{
+        position: relative;
+        top: -100px !important;
+    }
+    .brand{
+        /* width: 100px !important; */
+        margin-left: 50px !important;
+        top: -100px !important;
+    }
+    .brand2{
+        position: relative;
+        margin-left: 270px !important;
+        top: -100px !important;
+    }
+    .brand1{
+        position: relative;
+        top: -100px;
+    }
+    .pym{
+        margin-left: 70px !important;
+        top: -40px;
+    }
+    .brand4{
+        position: relative;
+        margin-left: 270px !important;
+        top: -40px;
+    }
+    .cio{
+        position: relative;
+        top: -40px;
+        margin-left: 480px !important;
+    }
+    .footer{
+        position: relative;
+        top: -100px !important;
+        margin-left: -80px !important;
+    }
+    .foot-list{
+        position: relative;
+        margin-top: -50px !important;
+        margin-left: 00px !important;
+    }
+    .foot-list2{
+        position: relative;
+        right: 50px !important;
+    }
+    .foot-list3{
+        position: relative;
+        top: 250px !important;
+        margin-left: 0px !important;
+    }
+    .brand-logo{
+        position: relative;
+        top: 400px !important;
+        margin-left: -1070px !important;
+    }
+    .foot-brand{
+        position: relative;
+        width: 100%;
+        height: 1250px !important;
+    }
+    .tesmot{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+        text-align: left !important;
+    }
+    .line{
+        position: relative;
+        top: 350px !important;
+    }
+    .contact{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+    }
+    .call{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+    }
+    .end{
+        position: relative;
+        top: 350px;
+        max-width: 500px !important;
+    }
+    .pv{
+        position: relative;
+        top: 320px !important;
+    }
+    .copy{
+        position: relative;
+        top: 330px !important;
+    }
+}
+
+@media only screen and (width < 500px){
+    .navs1{
+        display: none;
+    }
+    .navs1 li{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .bests h1{
+        position: relative;
+        margin-top: 50px;
+        display: flex;
+        margin-left: -50px;
+        min-width: 300px;
+    }
+    .bests p{
+        position: relative;
+        margin-top: -200px;
+        display: flex;
+        margin-left: -50px;
+        min-width: 300px;
+    }
+    .apple{
+        position: relative;
+        margin-top: -100px;
+        margin-left: -50px;
+        width: 150px;
+    }
+    .whiteapple{
+        position: relative;
+        left: -10px;
+    }
+    .apple p{
+        position: relative;
+        left: -10px;
+    }
+    .google{
+        position: relative;
+        margin-top: -60px;
+        margin-left: -80px;
+        width: 150px;
+    }
+    .google p{
+        position: relative;
+        left: -14px;
+    }
+    .bounce{
+        height: 700px;
+        width: 350px;
+        /* border: 10px solid white; */
+        background-image: url(./multimedia/pexels-ketut-subiyanto-4350099.avif);
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        left: 30px;
+        top: 600px;
+        animation: piggy 10s linear infinite;
+        background-repeat: no-repeat;
+    }
+    @keyframes piggy{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-50px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    .icon1{
+        width: 130px;
+        position: relative;
+        top: 135px;
+        left: -10px;
+    }
+    .icon2{
+        width: 120px;
+        position: relative;
+        top: 50px;
+        right: -270px;
+    }
+    .icon3{
+        width: 120px;
+        position: relative;
+        top: 180px;
+        left: -10px;
+    }
+    .icon4{
+        width: 150px;
+        position: relative;
+        top: 130px;
+        right: -270px;
+    }
+    .icon5{
+        width: 130px;
+        position: relative;
+        top: 170px;
+        left: 130px;
+    }
+    .secure{
+        position: relative;
+        margin-top: 400px;
+        z-index: 1;
+        display: block;
+        margin-left: 00px !important;
+    }
+    .secure p{
+        position: relative;
+        margin-top: -10px !important;
+        max-width: 350px;
+        left: 260px;
+    }
+    .secure img{
+        position: relative;
+        display: block;
+        top: 0px;
+        left: 50px;
+    }
+    .secure h2{
+        position: relative;
+        left: -50px;
+    }
+    .secure h4{
+        position: relative;
+        margin-top: 00px;
+        left: -100px;
+        white-space: nowrap;
+    }
+    .build{
+        position: relative;
+        margin-top: 350px;
+        z-index: 1;
+        left: -100px;
+        display: flex;
+    }
+    .build h1{
+        min-width: 300px !important;
+        margin-left: -20px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .build p{
+        position: relative;
+        margin-left: -420px;
+        top: -300px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .vest{
+        position: absolute;
+        float: left;
+        display: flex;
+        width: 350px;
+        /* margin-left: -600px; */
+        left: 20px;
+        margin-top: 200px;
+        z-index: 1;
+    }
+    .automated{
+        font-size: 25px;
+    }
+    .fast{
+        font-size: 18px;
+        left: -200px;
+        min-width: 200px !important;
+        top: 100px;
+    }
+    .vest2{
+        position: relative;
+        display: flex;
+        left: 20px;
+        top: 100px;
+        width: 350px;
+        z-index: 1;
+    }
+    .fixed{
+        font-size: 23px;
+        margin-top: 50px;
+    }
+    .lock{
+        font-size: 15px;
+        margin-left: -150px;
+        min-width: 200px;
+        margin-top: 80px;
+    }
+    .vest2 img{
+        width: 150px;
+    }
+     .vest3{
+        position: relative;
+        display: flex;
+        margin-left: -680px;
+        top: 650px;
+        z-index: 1;
+        width: 350px;
+    }
+    .goal{
+        font-size: 23px;
+    }
+    .reach{
+        left: 100px;
+        font-size: 15px;
+        top: -20px;
+        max-width: 200px;
+    }
+     .vest4{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        top: 650px;
+        left: 20px;
+        width: 350px;
+    }
+    .naira{
+        font-size: 30px;
+        left: 30px;
+        top: -20px;
+    }
+    .flex{
+        font-size: 18px;
+        left: -110px;
+        top: -60px;
+        min-width: 250px;
+        line-height: 30px;
+    }
+    .vest4 img{
+        width: 150px;
+    }
+    .vest5{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        top: 1200px;
+        margin-left: -670px;
+        width: 350px;
+    }
+    .dollar{
+        font-size: 30px;
+        left: 30px;
+        top: -20px;
+    }
+    .grow{
+        font-size: 18px;
+        left: -130px;
+        top: -60px;
+        min-width: 250px;
+        line-height: 30px;
+    }
+    .vest5 img{
+        width: 150px;
+    }
+    .diverse{
+        position: relative;
+        display: flex;
+        z-index: 1;
+        margin-top: 1200px;
+        width: 100% !important;
+        height: 900px !important;
+    }
+    .ways{
+        /* color: red !important; */
+        font-size: 15px;
+        /* white-space: nowrap; */
+        position: relative;
+        top: -100px;
+        left: 50px;
+        min-width: 400px;
+        text-align: left !important;
+        display: flex;      
+    }
+    .diverse p{
+        top: 100px !important;
+        left: -350px !important;
+    }
+    .invest{
+        width: 350px !important;
+        height: 580px !important;
+        position: relative;
+        top: 350px;
+        left: -770px;
+    }
+    .earn{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .confident{
+        margin-top: -10px;
+    }
+    .invest img{
+        height: 250px !important;
+        position: relative;
+        left: -650px;
+        top: 50px !important;
+    }
+    .diverse p{
+        position: relative;
+        top: 200px;
+        display: flex;
+        left: -270px;
+        min-width: 350px;
+        text-align: left !important;
+    }
+    .saver{
+        position: relative;
+        top: -100px;
+        max-width: 500px;
+        left: 50px;
+        font-size: 20px;
+        max-width: 300px;
+    }
+    .month{
+        position: relative;
+        top: -100px;
+        left: -250px;
+        min-width: 350px !important;
+    }
+    .video{
+        position: relative;
+        top: -100px;
+        left: -250px;
+        width: 350px !important;
+    }
+    .june{
+        width: 330px !important;
+        border-radius: 10px;
+    }
+    .join{
+        position: relative;
+        top: -200px !important;
+    }
+    .stories{
+        margin-left: 30px;
+        width: 350px;
+    }
+    .people{
+        top: 50px !important;
+        left: -560px;
+        z-index: 1;
+        min-width: 400px;
+    }
+    .black{
+        top: 50px !important;
+        left: -580px;
+    }
+    .android{
+        top: 4px !important;
+    }
+    .foot-brand{
+        top: -150px;
+    }
+    .feature{
+        position: relative;
+        top: -60px !important;
+    }
+    .brand{
+        /* width: 100px !important; */
+        margin-left: 30px !important;
+        top: -50px !important;
+    }
+    .brand2{
+        position: relative;
+        margin-left: 230px !important;
+        top: -50px !important;
+    }
+    .brand1{
+        position: relative;
+        top: 0px !important;
+        margin-left: 30px;
+    }
+    .pym{
+        margin-left: 240px !important;
+        top: 0px;
+    }
+    .brand4{
+        position: relative;
+        margin-left: 30px !important;
+        top: 50px;
+    }
+    .cio{
+        position: relative;
+        top: 50px;
+        margin-left: 240px !important;
+    }
+    .footer{
+        position: relative;
+        top: 0px !important;
+        margin-left: -110px !important;
+    }
+    .foot-list{
+        position: relative;
+        margin-top: 30px !important;
+        margin-left: 00px !important;
+    }
+    .foot-list2{
+        position: relative;
+        right: 50px !important;
+        margin-left: 250px;
+    }
+    .foot-list3{
+        position: relative;
+        top: 250px !important;
+        margin-left: 0px !important;
+    }
+    .brand-logo{
+        position: relative;
+        top: 400px !important;
+        margin-left: -1070px !important;
+    }
+    .foot-brand{
+        position: relative;
+        width: 100%;
+        height: 1250px !important;
+    }
+    .tesmot{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+        text-align: left !important;
+    }
+    .line{
+        position: relative;
+        top: 350px !important;
+    }
+    .contact{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+    }
+    .call{
+        position: relative;
+        top: 400px !important;
+        margin-left: 20px !important;
+    }
+    .end{
+        position: relative;
+        top: 350px;
+        min-width: 350px !important;
+        margin-left: 30px;
+    }
+    .pv{
+        position: relative;
+        top: 320px !important;
+        margin-left: 30px;
+    }
+    .copy{
+        position: relative;
+        top: 330px !important;
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,1018 @@
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(244, 250, 255);
+    margin-top: 0;
+    top: 0;
+    padding-top: 0%;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+}
+.head{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.nav-bar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.nav-bar ul{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav li{
+    list-style: none;
+    display: flex;
+    position: relative;
+    text-align: right;
+    word-spacing: 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.logo{
+    width: 170px;
+    padding-left: 100px;
+}
+.navs{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #3d4f60;;
+    gap: 1rem;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    top: 10px;
+}
+.nav-btn1{
+    display: flex;
+    position: relative;
+    height: 55px;
+    width: 95px;
+    border: 1px solid rgb(18, 34, 49);
+    border-radius: 15px;
+    font-size: 17px;
+    right: 200px;
+    top: 25px;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 15px;
+}
+.nav-btn2{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 55px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(18, 34, 49);
+    border: none;
+    border-radius: 15px;
+    right: 100px;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 20px;
+    top: -30px;
+}
+body{
+    background-color: rgb(244, 250, 255);
+}
+.bounce{
+    height: 700px;
+    width: 500px;
+    /* border: 10px solid white; */
+    background-image: url(./multimedia/pexels-ketut-subiyanto-4350099.avif);
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    right: 100px;
+    top: 220px;
+    animation: piggy 10s linear infinite;
+    background-repeat: no-repeat;
+}
+@keyframes piggy{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.icon1{
+    width: 200px;
+    position: absolute;
+    top: 115px;
+    left: -30px;
+}
+.icon2{
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    right: -350px;
+}
+.icon3{
+    width: 200px;
+    position: absolute;
+    top: 310px;
+    left: -30px;
+}
+.icon4{
+    width: 200px;
+    position: absolute;
+    top: 310px;
+    right: -370px;
+}
+.icon5{
+    width: 200px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+.best h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    position: absolute;
+    display: flex;
+    text-align: left;
+    margin-top: 170px;
+    padding: 100px;
+    word-wrap: break-word;
+    color: #122231;
+    letter-spacing: -0.03em;
+    line-height: 56px;
+    max-width: 459px;
+    opacity: 1;
+}
+.best p{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    text-align: left;
+    margin-top: 300px;
+    padding: 100px;
+    word-wrap: break-word;
+    color: #122231;
+    max-width: 459px;
+    line-height: 30px;
+    opacity: 1;
+}
+.apple{
+    width: 170px;
+    height: 60px;
+    background-color: #122231;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    left: 100px;
+    margin-top: 550px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 10px;
+    cursor: pointer;
+    padding-right: 200px;
+    white-space: nowrap;
+}
+.apple:hover{
+    transform: translateY(-10px);
+    transition-duration: .7s;
+    background-color: black;   
+}
+.whiteapple{
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+.google{
+    width: 170px;
+    height: 60px;
+    background-color: #122231;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    left: 320px;
+    margin-top: 550px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 10px;
+    padding-left: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-right: 200px;
+}
+.google:hover{
+    transform: translateY(-10px);
+    transition-duration: .7s;
+    background-color: black;   
+}
+.secure{
+    margin-top: 700px;
+    padding: 100px;
+    display: flex;
+}
+.secure h2{
+    font-family: sans-serif;
+    color: #122231;
+    white-space: nowrap;
+}
+.secure p{
+    display: block;
+    margin-top: 60px;
+    margin-left: -310px;
+    font-size: 16px;
+    max-width: 648px;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: #3d4f60;
+}
+.arrow{
+    margin-top: 140px;
+    margin-left: -640px;
+}
+.secure h4{
+    margin-top: 150px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    color: #122231;
+    cursor: pointer;
+}
+.secure h4:hover{
+    background-color: #3d4f60;
+    transform-origin: left;
+    transition-timing-function: ease-in;
+    transition-duration: 3s;
+}
+.vest{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    border: 2px solid white;
+    border-radius: 25px;
+    overflow: hidden;
+    animation-duration: 10s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone1;
+    /* cursor: pointer; */
+}
+.automated{
+    font-family: sans-serif;
+    position: relative;
+    display: flex;
+    top: 55px;
+    left: 30px;
+    color: rgb(45, 45, 137);
+    animation-duration: 10s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone3;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 700;
+}
+.fast{
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    color: #3d4f60;
+    line-height: 35px;
+    max-width: 300px;
+    animation-duration: 10s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone4;
+    cursor: pointer;
+}
+.vest img{
+    height: 250px;
+    position: absolute;
+    display: block;
+    background-color: none;
+    top: 250px;
+    right: 20px;
+    transform: translate(250px, 250px);
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+@keyframes phone{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes phone1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(85, 85, 237);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(85, 85, 237);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(85, 85, 237);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes phone3{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(45, 45, 137);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes phone4{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.build{
+    color: #122231;
+}
+.build h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    max-width: 450px;
+    text-align: center;
+    margin-top: 100px;
+}
+.build p{
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+    margin-top: 260px;
+    left: 120px;
+    max-width: 350px;
+    line-height: 35px;
+    text-align: center;
+}
+.vest2{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 550px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: lock1;
+    animation-delay: 5s;
+}
+.fixed{
+    white-space: nowrap;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(50, 150, 255);
+    animation: lock2 10s infinite;
+    animation-delay: 5s;
+    font-weight: 700;
+}
+.lock{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* display: flex; */
+    max-width: 290px;
+    font-weight: lighter;
+    color: #3d4f60;
+    line-height: 35px;
+    animation-delay: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: phone4;
+}
+.vest2 img{
+    height: 250px;
+    position: relative;
+    display: flex;
+    margin-top: 247px;
+    right: 15px;
+    transform: translate(250px, 250px);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: lock;
+    animation-delay: 5s;
+}
+@keyframes lock{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes lock1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(50, 150, 255);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(50, 150, 255);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(50, 150, 255);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes lock2{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(17, 138, 230);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes lock3{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.vest3{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 550px;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: anime1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+.goal{
+    font-size: 33px;
+    white-space: nowrap;
+    font-family: sans-serif;
+    color: rgb(6, 155, 64);
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+    left: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    /* letter-spacing: 0.1em; */
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-name: anime2;
+    cursor: pointer;
+}
+.reach{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* display: flex; */
+    max-width: 300px;
+    min-height: 80px;
+    font-weight: lighter;
+    color: #3d4f60;
+    line-height: 35px;
+    font-weight: 400;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: phone4;
+}
+.save{
+    height: 250px;
+    margin-top: 248px;
+    position: absolute;
+    display: flex;
+    right: 20px;
+    transform: translate(250px, 250px);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-name: anime;
+}
+@keyframes anime{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes anime1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(6, 155, 64);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(6, 155, 64);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(6, 155, 64);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes anime2{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(6, 155, 64);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+.vest3:hover{
+    background-color: rgb(6, 155, 64);
+}
+.vest3:hover {
+    background-color: rgb(6, 155, 64);
+    color: white;
+    animation-play-state: paused;
+    .goal{
+        color: white;
+        animation-play-state: paused;
+        background-color: rgb(6, 155, 64);
+    }
+    .save{
+        animation-play-state: paused;
+        transform: translate(0px, 0px);
+        background-color: rgb(6, 155, 64);
+    }
+    .goal{
+        color: white;
+        animation-play-state: paused;
+        background-color: rgb(6, 155, 64);
+    }
+    .reach{
+        color: white;
+        animation-play-state: paused;
+        background-color: rgb(6, 155, 64);
+    }
+    .vest3{
+        background-color:  rgb(6, 155, 64) !important;
+        animation-play-state: paused;
+    }
+}
+.vest4{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 1100px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: i1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.naira{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    left: 50px;
+    color: #e5489b;
+    animation-duration: 10s;
+    animation-name: i1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transition: linear;
+}
+.flex{
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+    margin-top: 170px;
+    left: 50px;
+    max-width: 280px;
+    color: #3d4f60;
+    animation-duration: 10s;
+    animation-name: i3;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+.iphone14{
+    display: flex;
+    position: absolute;
+    margin-top: 248px;
+    right: 20px;
+    height: 250px;
+    animation-duration: 10s;
+    animation-name: i0;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transform: translate(250px, 250px);
+}
+@keyframes i0{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes i1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    44.9%{color: #e5489b;
+    }
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  #e5489b;
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  #e5489b;
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: #e5489b;
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes i2{
+    /* 0%{background-color: white;} */
+    44.99%{color: #e5489b;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes i3{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.vest5{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 1100px;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    overflow: hidden;
+    animation-duration: 10s;
+    animation-name: ip1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+
+.dollar{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    left: 50px;
+    color: rgb(12, 24, 37);
+    animation-duration: 10s;
+    animation-name: ip1;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transition: linear;
+}
+.grow{
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+    margin-top: 170px;
+    left: 50px;
+    max-width: 300px;
+    color: #3d4f60;
+    animation-duration: 10s;
+    animation-name: ip3;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+}
+.iphone12{
+    display: flex;
+    position: absolute;
+    margin-top: 248px;
+    right: 20px;
+    height: 250px;
+    animation-duration: 10s;
+    animation-name: ip0;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    cursor: pointer;
+    transform: translate(250px, 250px);
+}
+@keyframes ip0{
+    0%{transform: translate(250px, 250px);}
+    40%{transform: translate(250px, 250px);}
+    45%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    80%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    90%{
+        transform: translate(0px, 0px);
+        color: white;
+    }
+    98%{transform: translate(250px, 250px);}
+    98.5%{transform: translate(250px, 250px);}
+    100%{transform: translate(250px, 250px);}
+}
+@keyframes ip1{
+    0%{background-color: white;}
+    40%{background-color: white;}
+    44.9%{color: rgb(12, 24, 37);
+    }
+    45%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(12, 24, 37);
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        /* transform: translate(0px, 0px); */
+        background-color:  rgb(12, 24, 37);
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        /* transform: translate(0px, 0px); */
+        background-color: rgb(12, 24, 37);
+        color: white;
+    }
+    98%{background-color: white;}
+    98.5%{background-color: white;}
+    100%{background-color: white;}
+}
+@keyframes ip2{
+    /* 0%{background-color: white;} */
+    44.99%{color: rgb(12, 24, 37);}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+    /* 98%{background-color: white;} */
+    /* 98.5%{background-color: white;} */
+    /* 100%{background-color: white;} */
+}
+@keyframes ip3{
+    /* 0%{background-color: white;} */
+    44.99%{color: #3d4f60;}
+    45%{
+        color: white;
+    }
+    46%{color: white !important;}
+    80%{
+        color: white;
+    }
+    81%{color: white !important;}
+    90%{
+        color: white;
+    }
+}
+.animated-div{
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+@keyframes animateDivs{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.diverse{
+    width: 100%;
+    height: 800px;
+    background-color: red;
+    position: absolute;
+    top: 3500px;
+}
